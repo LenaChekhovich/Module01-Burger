@@ -224,7 +224,7 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   color: #1B2A49;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .menu-select {
@@ -244,8 +244,9 @@ header {
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 50px 20px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .menu-grid-cover {
@@ -253,6 +254,7 @@ header {
   height: 430px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 23px;
 }
 
 .menu-grid-cover img {
@@ -269,31 +271,37 @@ header {
   font-weight: 600;
   font-size: 30px;
   color: #1B2A49;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .menu-grid-price {
   font-weight: 700;
   font-size: 20px;
   color: #979797;
-  margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-bottom: 22px;
 }
 
 .menu-grid-btn {
   background-color: #FBB731;
   border-radius: 5px;
-  padding: 10px 50px;
-  background-image: url(../images/cart-menu.svg);
-  background-size: 18px 18px;
-  background-repeat: no-repeat;
-  background-position: 15% center;
-  margin-top: 10px;
-  margin-bottom: 25px;
+  padding: 10px 32px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 9px;
 }
 
-.menu-grid-icon {}
+.menu-grid-icon {
+  background-image: url(../images/cart-menu.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: 18px;
+  height: 18px;
+}
 
 .menu-grid-text {
   font-weight: 700;
@@ -302,7 +310,64 @@ header {
   color: #1E2F40;
 }
 
-.additional-title {
-  margin-top: 100px;
-  margin-bottom: 30px;
+.footer {
+  background-color: #1e2f40;
+  color: #fff;
+  padding-top: 117px;
+  padding-bottom: 106px;
+  margin-top: 140px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 63px;
+}
+
+.footer-item h2 {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+  margin-top: 0;
+}
+
+.footer-item li {
+  margin-bottom: 9px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #faf9f9;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.footer-item a {
+  color: #dedede;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.footer-item span {
+  color: #dedede;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.footer-tel ul {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fbb731;
+  margin-top: 0;
+}
+
+.footer-tel li {
+  margin-bottom: 12px;
+}
+
+.footer-list {
+  padding-left: 0;
 }
