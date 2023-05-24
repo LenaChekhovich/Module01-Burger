@@ -90,6 +90,10 @@ header {
   position: relative;
 }
 
+.button-item:hover {
+  opacity: 0.8;
+}
+
 .button-count {
   font-weight: 700;
   font-size: 13px;
@@ -312,7 +316,7 @@ header {
 
 .menu-grid-btn:hover {
   background-color: #F37335;
-  cursor: grab;
+  cursor: pointer;
 }
 
 .menu-grid-icon {
