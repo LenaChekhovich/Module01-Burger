@@ -176,7 +176,7 @@ header {
   background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 0 center;
   padding: 100px 100px 120px;
   margin-bottom: 80px;
 }
@@ -581,4 +581,55 @@ header {
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 738px;
+  }
+
+  .header-logo {
+    width: 150px;
+    height: 48px;
+    background-size: contain;
+  }
+
+  .header-nav {
+    gap: 22px;
+  }
+
+  .header-item {
+    flex-basis: 75.5%;
+  }
+
+  .bg {
+    margin-bottom: 72px;
+  }
+
+  .banner-box {
+    background-position: -80px center;
+    padding: 100px 40px 120px;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 15px;
+  }
+
+  .additional .menu-grid {
+    grid-template-columns: repeat(3, 275px);
+    gap: 50px 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .additional .menu-grid-cover img {
+    object-fit: cover;
+  }
+
+  .footer-box {
+    flex-wrap: wrap;
+  }
 }
