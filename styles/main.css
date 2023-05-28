@@ -57,6 +57,7 @@ header {
   font-weight: 600;
   font-size: 20px;
   color: #443737;
+  transition: 0.3s;
 }
 
 .header-nav a:hover {
@@ -88,6 +89,7 @@ header {
 
 .button-item {
   position: relative;
+  transition: 0.3s;
 }
 
 .button-item:hover {
@@ -135,6 +137,7 @@ header {
   color: #DEDEDE;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
+  transition: 0.3s;
 }
 
 .breadcrumbs a:hover {
@@ -315,6 +318,7 @@ header {
   justify-content: center;
   margin: 0 auto;
   gap: 9px;
+  transition: 0.3s;
 }
 
 .menu-grid-btn:hover {
@@ -378,6 +382,7 @@ header {
   color: #dedede;
   text-decoration: none;
   font-weight: 400;
+  transition: 0.3s;
 }
 
 .footer-list a:hover {
@@ -403,6 +408,7 @@ header {
   font-size: 20px;
   font-weight: 900;
   color: #fbb731;
+  transition: 0.3s;
 }
 
 .footer-list-tel a:hover {
@@ -683,11 +689,6 @@ header {
     gap: 50px 15px;
   }
 
-  .menu-other {
-    overflow: hidden;
-    height: 558px;
-  }
-
   .menu-other .menu-grid {
     display: flex;
     width: auto;
@@ -749,6 +750,7 @@ header {
 
   .bg {
     margin-bottom: 33px;
+    padding: 55px 0;
   }
 
   .title {
@@ -757,10 +759,6 @@ header {
 
   .description {
     font-size: 12px;
-  }
-
-  .bg {
-    padding: 55px 0;
   }
 
   .banner-box {
