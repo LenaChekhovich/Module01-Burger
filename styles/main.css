@@ -720,8 +720,22 @@ header {
 }
 
 @media (max-width: 567px) {
+  .header {
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+
+  .header-logo {
+    width: 116px;
+    height: 37px;
+  }
+
   .breadcrumbs a {
     font-style: 14px;
+  }
+
+  .bg {
+    margin-bottom: 33px;
   }
 
   .title {
@@ -739,11 +753,7 @@ header {
   .banner-box {
     background-position: 17% center;
     padding: 35px 24px 54px;
-    margin-bottom: 0;
-  }
-
-  .menu-header {
-    gap: 27px;
+    margin-bottom: 40px;
   }
 
   .menu-title {
@@ -751,7 +761,62 @@ header {
   }
 
   .menu-select {
-    width: 136px;
+    font-size: 12px;
+    flex-basis: 136px;
+    padding: 13px 24px 13px 15px;
+    background-position: 91% center;
+  }
+
+  .menu-header {
+    margin-bottom: 30px;
+  }
+
+  .menu-grid {
+    gap: 25px 15px;
+    margin-bottom: 40px;
+  }
+
+  .menu-grid-cover {
+    height: 56vw;
+    margin-bottom: 10px;
+  }
+
+  .menu-grid-cover img {
+    height: 100%;
+  }
+
+  .menu-grid-title {
+    font-size: 15px;
+  }
+
+  .menu-grid-price {
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+  }
+
+  .menu-grid-btn {
+    padding: 10px 21px;
+  }
+
+  .menu-other {
+    height: 108vw;
+  }
+
+  .menu-other .menu-grid {
+    padding-bottom: 24vw;
+  }
+
+  .menu-other .menu-grid-cover {
+    height: 56vw;
+  }
+
+  .menu-other .menu-grid-cover img {
+    height: 100%;
+  }
+
+  .menu-other .menu-grid-item {
+    flex: 0 0 38vw;
   }
 }
 
@@ -760,6 +825,10 @@ header {
     width: 116px;
     height: 37px;
     background-size: contain;
+  }
+
+  .menu-grid-title {
+    font-size: 13px;
   }
 }
 
