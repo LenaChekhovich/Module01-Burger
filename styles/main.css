@@ -8,6 +8,10 @@ ul {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 a {
   text-decoration: none;
 }
